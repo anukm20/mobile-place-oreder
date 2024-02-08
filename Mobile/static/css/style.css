@@ -1,0 +1,171 @@
+.des{
+  text-align: center;
+  margin-left: 84px;
+  margin-right: 100px;
+  font-style: oblique;
+}
+.hed{
+  padding-left: 800px;
+}
+.card-group{
+  width: 97vw;
+  margin-left: 20px;
+}
+.card-group img{
+  width: 260px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.card-group a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: black;
+}
+.col2{
+  margin-top: 130px;
+  width: 800px;
+  margin-left: 150px;
+}
+.col1{
+  margin-top: 30px;
+}
+.cd{
+  height: 58vh;
+  width: 23vw;
+  margin-top: 60px;
+}
+.cd img{
+  width: 360px;
+  margin-right: 80px;
+}
+.conta{
+  height: 83.7vh;
+  padding-left: 184px !important;
+
+}
+.hed2{
+  text-align: center;
+  padding-right: 200px !important;
+  margin-top: 30px;
+  background-color: rgb(247, 247, 247);
+}
+.bttn{
+  width: 32vw;
+  margin-right: 0px;                              ;
+}
+.nvbk{
+  background-color:   rgb(231, 241, 245) !important;
+}
+.lgo{
+  margin-right: 28px;
+}
+.sb{
+  margin-left: 198px;
+}
+.login{
+  margin-left: 456px;
+}
+.sing{
+  margin-left: 709px;
+}
+.lhd{
+  margin-left: 150px;
+}
+.search{
+  margin-right: 210px;
+}
+.ser{
+  margin-right: 440px;
+}
+.prcnt{
+  height: 90%;
+  margin-left: 200px;
+}
+.NT{
+  margin-left: 570px;
+  margin-top: 20px;
+  color: red;
+}
+.catt{
+  margin-left: 540px;
+}
+.purch{
+  margin-left: 190px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 230px;
+}
+.tbl{
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: rgb(239, 239, 239);
+}
+.yr{
+  text-align: center;
+  margin-left: 100px;
+  color: rgb(3, 35, 163);
+}
+.crtimg{
+  width: 85px;
+}
+.trr h3{
+  font-weight: 900;
+}
+.tble{
+  width: 550px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 115px;
+  background-color: rgba(238, 238, 238, 0.986);
+}
+.prd{
+  margin-right: 0px;
+}
+.rr{
+  height: 350px;
+}
+.cn{
+  margin-left: 120px;
+  margin-top: 65px;
+}
+.pr{
+  color: rgb(25, 133, 25);
+}
+.rw{
+  margin-left: 140px;
+  width: 88vw;
+}
+.rrw{
+  margin-left: 0px;
+}
+.des{
+  color: rgb(102, 102, 102);
+  margin: auto;
+}
+.pro{
+  color: rgb(7, 7, 7);
+}
+.plac{
+  width: 230px;
+  height: 56px;
+  margin-top: 9px;
+  margin-left: 15px;  
+}
+.fr{
+  font-weight: 400;
+}
+.imm img{
+  height: 550px;
+}
+.crt{
+  margin-left: 350px;
+  color: rgb(231, 11, 11);
+}
+.to{
+  margin-top: 34px;
+  margin-bottom: 300px;
+}

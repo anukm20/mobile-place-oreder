@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="rw row border mt-4 mb-5">
+  <div class="col-lg-8 btn-light">
+    <h5 class="fr">From Saved Addresses</h5>
+  
+  {% for cartitem in cart %}
+  <div class="rrw row border w-100 shadow">
+    <div class="col-lg-2 col-md-3 col-sm-12">
+      <img class="crtimg mt-2 shadow" src="{{cartitem.product.image.url}}" alt=""></h5>
+
+
+      <h4 class="qt mt-4"><a href="{% url 'cart:cancelcart' cartitem.product.id %}"
+          class="btn">-</a>{{cartitem.quantity}}<a href="{% url 'cart:addcart' cartitem.product.id %}" class="btn">+</a>
+      </h4>
+    </div>
+    <div class="col-lg-7 border mt-2 mb-2">
+      <h5 class="pro mt-3">{{cartitem.product}}</h5>
+      <h6 class="des">{{cartitem.product.desc}}</h6>
+      <h4 class="pr">${{cartitem.product.price}}</h4>
+    </div>
+    <div class="col-lg-3">
+      <a href="{% url 'cart:fullremove' cartitem.product.id %}" class="cn btn btn-danger">Remove</a>
+    </div>
+  </div>
+  {% endfor %}
+  <a href="{% url 'phone:home' %}" class="purch btn btn-primary pt-2 pb-2">
+    <h4>continue purchase</h4>
+  </a>
+  <a href="{% url 'cart:placeorder' %}" class="plac btn btn-warning pt-2"><h4>Place Order</h4></a>
+</div>
+<div class="to col-lg-4 border">
+<div class="row border">
+<h3>PRODUCT DETAILS</h3>
+</div>
+<div class="col-lg-12">
+  <h4 class="TOT mt-5">TOTAL:</h4>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}
